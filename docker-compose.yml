@@ -1,0 +1,6 @@
+version: "3.6"
+services:
+  back-end:
+    build: .
+    ports:
+      - 9005:9005
